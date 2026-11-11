@@ -15,6 +15,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="Для ТОО и ИП, которые платят самозанятым: перед выплатой проверка статуса, вида деятельности и лимитов МРП, а договор, акт и чек — в комплекте.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -73,38 +77,68 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">Самозанятые в порядке</a></div>
-  <nav class="top"><a href="#chto" data-ev="click_nav_chto">Что вы получаете</a><a href="price.html" data-ev="click_nav_cena">Цена</a><a href="#primer" data-ev="click_nav_primer">Пример</a><a href="#start" data-ev="click_nav_start">Начать</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">Самозанятые в порядке</a>
+  <nav><a href="#chto" data-ev="click_nav_chto">Что вы получаете</a><a href="price.html" data-ev="click_nav_cena">Цена</a><a href="#primer" data-ev="click_nav_primer">Пример</a><a href="#start" data-ev="click_nav_start">Начать</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Каждая выплата самозанятому — проверена до оплаты и подтверждена договором, актом и чеком</h1>
-    <p class="sub">Для компаний, которые платят от пяти до ста самозанятым — в клининге, доставке, ремонте, салонах и учебных центрах: перед выплатой видно, активен ли статус исполнителя, есть ли его вид деятельности в перечне и не превышен ли лимит, а после — какие документы собраны для вычета расходов.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">Мне это нужно</a>
-    <p class="cta-note">Сервис в подготовке · Оплата на этой странице не принимается</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> Для компаний в клининге, доставке</p>
+      <h1 class="rise" style="--i:1" data-len="long">Каждая выплата самозанятому&nbsp;<span class="soft">— проверена до оплаты и подтверждена договором, актом и чеком</span></h1>
+      <p class="rise" style="--i:2">Для компаний, которые платят от пяти до ста самозанятым — в клининге, доставке, ремонте, салонах и учебных центрах: перед выплатой видно, активен ли статус исполнителя, есть ли его вид деятельности в перечне и не превышен ли лимит, а после — какие документы собраны для вычета расходов.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">Мне это нужно</a>
+      <p class="meta rise" style="--i:4">Сервис в подготовке · Оплата на этой странице не принимается</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><text x="130" y="168" font-size="40" fill="#0a1524" font-weight="600">Самозанятым</text><line x1="110" y1="214" x2="1090" y2="214" stroke="#dde2ea" stroke-width="3" /><rect x="130" y="260" width="44" height="44" fill="#12397a" rx="8" /><text x="200" y="294" font-size="32" fill="#0a1524" font-weight="600">Статус по ИИН</text><rect x="130" y="350" width="44" height="44" fill="#dfe8f7" rx="8" /><text x="200" y="384" font-size="32" fill="#0a1524" font-weight="600">Вид деятельности</text><rect x="130" y="440" width="44" height="44" fill="#dfe8f7" rx="8" /><text x="200" y="474" font-size="32" fill="#0a1524" font-weight="600">Лимиты МРП</text><rect x="130" y="530" width="44" height="44" fill="#dfe8f7" rx="8" /><text x="200" y="564" font-size="32" fill="#0a1524" font-weight="600">Договор, акт, чек</text><rect x="700" y="260" width="370" height="400" fill="#dfe8f7" rx="20" /><text x="730" y="330" font-size="34" fill="#0a1524" font-weight="600">До оплаты</text><rect x="740" y="450" width="48" height="160" fill="#ffffff" rx="8" stroke="#dde2ea" stroke-width="3" /><rect x="818" y="510" width="48" height="100" fill="#ffffff" rx="8" stroke="#dde2ea" stroke-width="3" /><rect x="896" y="400" width="48" height="210" fill="#12397a" rx="8" /><rect x="974" y="530" width="48" height="80" fill="#ffffff" rx="8" stroke="#dde2ea" stroke-width="3" /></svg></figure>
+    <dl class="facts">
+      <div><dt>Для</dt><dd>Компаний которые платят</dd></div>
+      <div><dt>Проверяет</dt><dd>Активен ли статус</dd></div>
+      <div><dt>Лимит</dt><dd>До месячного и годового</dd></div>
+      <div><dt>Пока</dt><dd>Сервис в подготовке</dd></div>
+    </dl>
+  </section>
 
   <section id="chto" data-view="features_view">
-    <h2>Что вы получаете</h2>
-    <div class="grid">
-      <div class="card"><b>Статус по ИИН</b><span>Активен ли у исполнителя режим самозанятого — перед каждой выплатой.</span><br><a class="btn" href="price.html" data-ev="feature_status">Мне это нужно</a></div>
-      <div class="card"><b>Вид деятельности</b><span>Есть ли работа исполнителя в перечне постановления № 994.</span><br><a class="btn" href="price.html" data-ev="feature_perechen">Мне это нужно</a></div>
-      <div class="card"><b>Лимиты МРП</b><span>Сколько осталось до месячного и годового лимита дохода.</span><br><a class="btn" href="price.html" data-ev="feature_limit">Мне это нужно</a></div>
-      <div class="card"><b>Договор, акт, чек</b><span>Документы по каждой выплате для вычета расходов.</span><br><a class="btn" href="price.html" data-ev="feature_dokumenty">Мне это нужно</a></div>
+    <div class="stack"><h2>Что вы получаете</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="120" y="148" font-size="34" fill="#0a1524" font-weight="600">Статус по ИИН</text><line x1="140" y1="320" x2="660" y2="320" stroke="#dde2ea" stroke-width="6" /><rect x="140" y="290" width="112" height="60" fill="#12397a" rx="28" /><rect x="275" y="290" width="112" height="60" fill="#ffffff" rx="28" stroke="#12397a" stroke-width="4" /><rect x="410" y="290" width="112" height="60" fill="#ffffff" rx="28" stroke="#12397a" stroke-width="4" /><rect x="545" y="290" width="112" height="60" fill="#ffffff" rx="28" stroke="#12397a" stroke-width="4" /></svg></div>
+        <h3>Статус по ИИН</h3><p>Активен ли у исполнителя режим самозанятого — перед каждой выплатой.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_status">Мне это нужно</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="120" y="148" font-size="34" fill="#0a1524" font-weight="600">Вид деятельности</text><rect x="140" y="206" width="44" height="44" fill="#dfe8f7" rx="8" /><polyline points="152,230 164,240 178,220" fill="none" stroke="#12397a" stroke-width="6" /><rect x="210" y="216" width="240" height="24" fill="#dde2ea" rx="12" /><rect x="140" y="294" width="44" height="44" fill="#dfe8f7" rx="8" /><rect x="210" y="304" width="180" height="24" fill="#b9c3d2" rx="12" /><rect x="140" y="382" width="44" height="44" fill="#dfe8f7" rx="8" /><rect x="210" y="392" width="200" height="24" fill="#dde2ea" rx="12" /></svg></div>
+        <h3>Вид деятельности</h3><p>Есть ли работа исполнителя в перечне постановления № 994.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_perechen">Мне это нужно</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="120" y="148" font-size="34" fill="#0a1524" font-weight="600">Лимиты МРП</text><line x1="140" y1="470" x2="660" y2="470" stroke="#dde2ea" stroke-width="4" /><rect x="150" y="350" width="72" height="120" fill="#dde2ea" rx="8" /><rect x="280" y="270" width="72" height="200" fill="#12397a" rx="8" /><rect x="410" y="380" width="72" height="90" fill="#dde2ea" rx="8" /><rect x="540" y="310" width="72" height="160" fill="#b9c3d2" rx="8" /></svg></div>
+        <h3>Лимиты МРП</h3><p>Сколько осталось до месячного и годового лимита дохода.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_limit">Мне это нужно</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="120" y="148" font-size="34" fill="#0a1524" font-weight="600">Договор, акт, чек</text><rect x="120" y="210" width="160" height="240" fill="#ffffff" rx="14" stroke="#dde2ea" stroke-width="3" /><rect x="140" y="250" width="110" height="16" fill="#dde2ea" rx="8" /><rect x="140" y="286" width="80" height="16" fill="#b9c3d2" rx="8" /><rect x="310" y="210" width="160" height="240" fill="#ffffff" rx="14" stroke="#dde2ea" stroke-width="3" /><rect x="330" y="250" width="110" height="16" fill="#dde2ea" rx="8" /><rect x="330" y="286" width="80" height="16" fill="#b9c3d2" rx="8" /><rect x="500" y="210" width="160" height="240" fill="#ffffff" rx="14" stroke="#dde2ea" stroke-width="3" /><rect x="520" y="250" width="110" height="16" fill="#dde2ea" rx="8" /><rect x="520" y="286" width="80" height="16" fill="#b9c3d2" rx="8" /><circle cx="250" cy="400" r="14" fill="#12397a" /></svg></div>
+        <h3>Договор, акт, чек</h3><p>Документы по каждой выплате для вычета расходов.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_dokumenty">Мне это нужно</a>
+      </article>
     </div>
   </section>
 
-  <section id="primer" data-view="example_view">
-    <h2>Пример (вымышленные данные)</h2>
-    <p class="fine">Клининговая компания платит 42 самозанятым каждую неделю. В пятницу сервис проверяет всех перед выплатой: у двоих статус не активен, у одного выплата превысила бы месячный лимит. Остальным 39 компания платит, по каждой выплате есть договор, акт и чек, а с тремя бухгалтер разбирается до оплаты.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Выбрать тариф</a>
+  <section id="primer" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Пример</h2>
+      <p>Клининговая компания платит 42 самозанятым каждую неделю. В пятницу сервис проверяет всех перед выплатой: у двоих статус не активен, у одного выплата превысила бы месячный лимит. Остальным 39 компания платит, по каждой выплате есть договор, акт и чек, а с тремя бухгалтер разбирается до оплаты.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Выбрать тариф</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="240" y1="150" x2="960" y2="150" stroke="#dde2ea" stroke-width="6" /><circle cx="240" cy="150" r="20" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="240" y="230" font-size="34" fill="#0a1524" font-weight="600" text-anchor="middle">каждую неделю</text><circle cx="600" cy="150" r="20" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="600" y="230" font-size="34" fill="#0a1524" font-weight="600" text-anchor="middle">перед выплатой</text><circle cx="960" cy="150" r="20" fill="#12397a" /><text x="960" y="230" font-size="34" fill="#0a1524" font-weight="600" text-anchor="middle">месячный лимит</text><rect x="120" y="300" width="960" height="420" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><text x="170" y="390" font-size="38" fill="#0a1524" font-weight="600">до оплаты</text><text x="170" y="470" font-size="32" fill="#566174">договор, акт и чек</text><rect x="170" y="540" width="64" height="64" fill="#dfe8f7" rx="12" /><rect x="266" y="540" width="64" height="64" fill="#12397a" rx="12" /><rect x="362" y="540" width="64" height="64" fill="#dde2ea" rx="12" /><rect x="458" y="540" width="64" height="64" fill="#b9c3d2" rx="12" /></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>Как это работает</h2>
-    <p>Компании в Казахстане всё чаще работают с самозанятыми: уборщики, курьеры, мастера по ремонту, мастера салонов, преподаватели. Это удобно — не нужно оформлять трудовой договор, — но у каждой выплаты самозанятому есть условия, и если они не выполнены, расход могут не принять к вычету, а отношения — переквалифицировать.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>Как это работает</h2></div>
+    <div class="stack">
+      <p>Компании в Казахстане всё чаще работают с самозанятыми: уборщики, курьеры, мастера по ремонту, мастера салонов, преподаватели. Это удобно — не нужно оформлять трудовой договор, — но у каждой выплаты самозанятому есть условия, и если они не выполнены, расход могут не принять к вычету, а отношения — переквалифицировать.</p>
     <p>Исполнитель должен быть зарегистрирован в специальном налоговом режиме для самозанятых, и его статус должен быть активен на дату выплаты. Его вид деятельности должен быть в перечне, утверждённом постановлением Правительства № 994. Его доход не должен превышать месячный лимит в 300 МРП и годовой лимит в 3 600 МРП.</p>
     <p>Когда исполнителей пять, это можно проверять вручную. Когда их пятьдесят и выплаты идут каждую неделю, бухгалтер не успевает: статусы меняются, лимиты считаются по всем заказчикам исполнителя, а документы по выплатам собираются в конце месяца, когда что-то уже потеряно.</p>
     <p>Сервис делает проверку частью каждой выплаты. Вы загружаете список исполнителей с ИИН и суммы, которые собираетесь заплатить. Перед оплатой сервис показывает по каждому исполнителю, активен ли его статус самозанятого и есть ли его вид деятельности в перечне.</p>
@@ -117,31 +151,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>Подключение занимает вечер: список исполнителей с ИИН, виды работ, шаблон договора. Сервис работает в браузере и на телефоне, ничего устанавливать не нужно.</p>
     <p>Сервис рассчитан на ТОО и ИП Казахстана, которые регулярно платят самозанятым исполнителям. Сейчас он в подготовке: сначала мы проверяем, нужен ли он компаниям.</p>
     <p>Сервис помогает проверять и собирать документы по вашим данным; за выплаты, налоги и отношения с исполнителями отвечает компания.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Вопросы и ответы</h2>
-    <h3>Что проверяется перед выплатой?</h3>
-    <p>Активен ли статус самозанятого по ИИН, есть ли вид деятельности в перечне № 994 и не превышен ли месячный и годовой лимит.</p>
-    <h3>Какие лимиты дохода у самозанятого?</h3>
-    <p>300 МРП в месяц и 3 600 МРП в год.</p>
-    <h3>Какие документы собираются?</h3>
-    <p>Договор, акт о выполненной работе и чек исполнителя из e-Salyq Business по каждой выплате.</p>
-    <h3>Сервис сам платит исполнителям?</h3>
-    <p>Нет. Выплаты делает компания; сервис проверяет и собирает документы.</p>
-    <h3>Можно уже пользоваться?</h3>
-    <p>Пока нет. Сервис в подготовке, и мы проверяем, нужен ли он компаниям.</p>
+    <div class="stack"><h2>Вопросы и ответы</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Что проверяется перед выплатой?</h3><p>Активен ли статус самозанятого по ИИН, есть ли вид деятельности в перечне № 994 и не превышен ли месячный и годовой лимит.</p></div>
+      <div class="split flip"><h3>Какие лимиты дохода у самозанятого?</h3><p>300 МРП в месяц и 3 600 МРП в год.</p></div>
+      <div class="split flip"><h3>Какие документы собираются?</h3><p>Договор, акт о выполненной работе и чек исполнителя из e-Salyq Business по каждой выплате.</p></div>
+      <div class="split flip"><h3>Сервис сам платит исполнителям?</h3><p>Нет. Выплаты делает компания; сервис проверяет и собирает документы.</p></div>
+      <div class="split flip"><h3>Можно уже пользоваться?</h3><p>Пока нет. Сервис в подготовке, и мы проверяем, нужен ли он компаниям.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Загрузите список исполнителей</h2>
-    <p><label>Сколько самозанятых вы платите<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— выберите —</option><option>До 5</option><option>5–20</option><option>20–100</option><option>Больше 100</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Начать</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Загрузите список исполнителей</h2>
+    </div>
+    <div class="tile stack">
+      <label>Сколько самозанятых вы платите<select data-ev-focus="form_start"><option value="">— выберите —</option><option>До 5</option><option>5–20</option><option>20–100</option><option>Больше 100</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Начать</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>Самозанятые в порядке</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Политика конфиденциальности</a></p>
-  <p class="muted">Проверка выплат и документы по вашим данным. За выплаты, налоги и отношения с исполнителями отвечает компания.</p>
+  <p>Проверка выплат и документы по вашим данным. За выплаты, налоги и отношения с исполнителями отвечает компания.</p>
 </div></footer>
 
 </body>
